@@ -114,22 +114,19 @@ a:hover {
 ---------------------------------------------------------------------------*/
 ul#menu {
 	background-image: url(images/menu_bg.gif);
-	display: flex;
 	height: 67px;
-	width: 1009px;
+	width: 1069px;
 	padding-left: 19px;
-        margin-right: auto;
+	margin-right: auto;
 	margin-left: auto;
 }
 
 ul#menu li {
-	flex: 1;
+	float: left;
 }
 
-
 ul#menu img {
-	width: 100%;
-        height: 67px;
+	vertical-align: bottom;
 }
 
 
@@ -176,6 +173,18 @@ ul#menu img {
 
 #main p {
 	padding: 0.5em 10px 1em;
+}
+
+#main ol{
+    margin-left: 30px;
+}
+
+#main ul{
+    margin-left: 30px;
+}
+
+#main img{
+        width: 710px;
 }
 
 
